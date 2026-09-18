@@ -42,6 +42,7 @@ document.getElementById('year').textContent = new Date().getFullYear();
         Message: document.getElementById('fmsg').value.trim(),
         Timestamp: new Date().toISOString()
       };
+      
 
       if (!data.Name) {
         setStatus('Please enter your name.', 'error');

@@ -35,7 +35,11 @@
 </a>
 
     </nav>
-    <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false"><span></span></button>
+    <button class="menu-btn" id="menuBtn" aria-label="Toggle menu" aria-expanded="false">
+  <span></span>
+  <span></span>
+  <span></span>
+</button>
   </div>
 </header>
 
@@ -262,7 +266,20 @@
       <form id="quoteForm">
         <div class="f-row">
           <div class="f-field"><label for="fname">Name</label><input id="fname" name="Name" type="text" required></div>
-          <div class="f-field"><label for="fphone">Phone</label><input id="fphone" name="Phone" type="tel"></div>
+        <div class="f-field">
+  <label for="fphone">Phone</label>
+  <input
+    id="fphone"
+    name="Phone"
+    type="tel"
+    inputmode="numeric"
+    maxlength="10"
+    placeholder="Enter 10 digit mobile number"
+    required
+    onkeydown="return /[0-9]|Backspace|Delete|ArrowLeft|ArrowRight|Tab/.test(event.key)"
+    oninput="this.value = this.value.replace(/[^0-9]/g, '').slice(0, 10)"
+  >
+</div>
         </div>
         <div class="f-row">
           <div class="f-field"><label for="fcompany">Company</label><input id="fcompany" name="Company" type="text"></div>
@@ -328,7 +345,7 @@
     </div>
   </div>
   <div class="wrap footer-bottom">
-    <span>© <span id="year"></span> Rawnat Testing LLP. All rights reserved.</span>
+    <span>© <span id="year"></span> Rawnat Testing LLP. All rights reserved. Powered by Nandu Mail Technology</span>
     <span class="est">EST. 2024 · FARIDABAD, HR</span>
   </div>
 </footer>

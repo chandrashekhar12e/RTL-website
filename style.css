@@ -681,7 +681,7 @@ footer.site::before { content: ""; position: absolute; top: -3px; left: 0; right
   padding: 0;
 }
 
-.nabl-download-top a {
+.nabl-download-top {
   display: inline-block;
   background: #17aa8f;
   color: #fff;

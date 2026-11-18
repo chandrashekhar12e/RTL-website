@@ -673,7 +673,7 @@ footer.site::before { content: ""; position: absolute; top: -3px; left: 0; right
 
 
 .nabl-download-top {
-  position: absolute;
+  position: relative;
   top: 30px;
   right: 100px;
   z-index: 1000;
@@ -681,7 +681,7 @@ footer.site::before { content: ""; position: absolute; top: -3px; left: 0; right
   padding: 0;
 }
 
-.nabl-download-top a {
+.nabl-download-top a:hover {
   display: inline-block;
   background: #17aa8f;
   color: #fff;

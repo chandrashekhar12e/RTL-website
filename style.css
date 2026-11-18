@@ -677,11 +677,11 @@ footer.site::before { content: ""; position: absolute; top: -3px; left: 0; right
   top: 30px;
   right: 100px;
   z-index: 1000;
-  
+  background:transparent;
   padding: 0;
 }
 
-.nabl-download-top a:hover {
+.nabl-download-top a {
   display: inline-block;
   background: #17aa8f;
   color: #fff;

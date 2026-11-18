@@ -673,28 +673,22 @@ footer.site::before { content: ""; position: absolute; top: -3px; left: 0; right
 
 
 .nabl-download-top {
-  position: relative;
+  position: absolute;
   top: 30px;
   right: 100px;
-  z-index: 2;
-  background: transparent;
+  z-index: 1000;
+  
   padding: 0;
 }
 
-.nabl-download-top a {
+.nabl-download-top a:hover {
   display: inline-block;
-  background: #ffffff;
-  color: #17aa8f;
+  background: #17aa8f;
+  color: #fff;
   padding: 10px 18px;
   border-radius: 5px;
   text-decoration: none;
   font-weight: 600;
-  transition: all 0.3s ease;
-}
-
-.nabl-download-top a:hover {
-  background: #17aa8f;
-  color: #ffffff;
 }
 
 

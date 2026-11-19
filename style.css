@@ -697,6 +697,11 @@ footer.site::before { content: ""; position: absolute; top: -3px; left: 0; right
   background-color: #42c9ae;
   color: #fff;
 }
+@media (max-width: 768px) {
+  .nabl-download-top {
+    top: 10px;
+  }
+}
 
 /* ---------- 13. SCROLL REVEAL ---------- */
 .reveal { opacity: 0; transform: translateY(14px); transition: opacity .6s ease, transform .6s ease; }

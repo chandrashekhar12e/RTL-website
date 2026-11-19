@@ -699,7 +699,7 @@ footer.site::before { content: ""; position: absolute; top: -3px; left: 0; right
 }
 @media (max-width: 768px) {
   .nabl-download-top {
-    top: 10px;
+    transform: translateY(-20px) !important;
   }
 }
 

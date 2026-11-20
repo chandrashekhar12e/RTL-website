@@ -702,6 +702,11 @@ footer.site::before { content: ""; position: absolute; top: -3px; left: 0; right
     transform: translateY(-20px) !important;
   }
 }
+.banner-section{
+  padding: 0%;
+  margin: 0%;
+  
+}
 
 /* ---------- 13. SCROLL REVEAL ---------- */
 .reveal { opacity: 0; transform: translateY(14px); transition: opacity .6s ease, transform .6s ease; }
